@@ -8,7 +8,7 @@ use std::{
     thread,
     time::Duration
 };
-use hello::ThreadPool;
+use multithreaded_server_example::ThreadPool;
 
 fn main() {
     let listener = TcpListener::bind("127.0.0.1:7878").unwrap();
